@@ -17,7 +17,7 @@ These js files also adjust the code's the indentation as well as form the text e
 OUTPUT:
 
 ![](output/home.png)
-![](output/editor.png)
+![](output/Alert_message.png)
 ![](output/beforeIndent.png)
 ![](output/afterIndent.png)
 ![](output/footer.png)
