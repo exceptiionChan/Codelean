@@ -1,0 +1,134 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height:100%;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #17161e;
+}
+
+.intro{
+	text-align:center;
+}
+
+.intro .title-logo {
+  font-size: 5em;
+  color: #fff;
+  margin: 0;
+  position:relative;
+}
+
+.intro .title-logo::after {
+    content:'';
+    position:absolute;
+    width:150px;
+    height:4px;
+    background:#fff;
+	top:110px;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+}
+
+.intro p {
+  color: #fff;
+  padding:20px 240px;
+  letter-spacing:0.5px;
+  line-height: 25px;
+  font-size:18px;
+}
+
+
+footer{
+  color: #fff;
+  margin-left:40px;
+  text-align:left;
+}
+
+footer .foot-logo{
+  font-size: 3.8em;
+}
+
+footer p{
+	color:#fff;
+	padding-left:10px;
+	font-size: 1.3em;
+}
+
+footer p span{
+	font-size: 0.6em;
+	line-height:25px;
+}
+
+
+#mydiv1 {
+  background: url("../images/b6.png") center center no-repeat;
+  background-size: cover;
+}
+
+#mydiv3 {
+  background: url("../images/b2.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+  background: white;
+}
+
+#fp-nav .fp-tooltip {
+  font-family: "Share Tech Mono", Helvetica, Arial, sans-serif !important;
+}
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span{
+	background:#fff;
+}
+
+.button-container {
+  position: relative;
+  left:40%;
+  float:left;
+  padding:50px;
+  -webkit-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+}
+
+.btn {
+  display: block;
+  height: 50px;
+  width: 186px;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+}
+.btn:after{
+  position: absolute;
+  content: '';
+  display: inline-block;
+  background: #2938a1;
+  /*background: linear-gradient(45deg, #3bade3 0%, #576fe6 25%, #9844b7 55%, #ff357f 100%);*/
+  background: linear-gradient(45deg, #2938a1 0%, #272d99 25%, #3daed1 75%, #6bd4d1 100%);
+  height: 50px;
+  width: 372px;
+  z-index: -1;
+  -webkit-transform: translateX(-280px);
+          transform: translateX(-280px);
+  -webkit-transition: -webkit-transform 400ms ease-in;
+  transition: -webkit-transform 400ms ease-in;
+  transition: transform 400ms ease-in;
+  transition: transform 400ms ease-in, -webkit-transform 400ms ease-in;
+}
+.btn:hover:after {
+  -webkit-transform: translateX(-200px);
+          transform: translateX(-200px);
+}
+.btn span {
+  position: relative;
+  top: 16px;
+}
