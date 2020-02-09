@@ -12,3 +12,12 @@ Code Mirror has been imported in the code with script files
 -script4.js
 
 These js files also adjust the code's the indentation as well as form the text editor.
+
+
+OUTPUT:
+
+![](output/home.png)
+![](output/editor.png)
+![](output/beforeIndent.png)
+![](output/afterIndent.png)
+![](output/footer.png)
